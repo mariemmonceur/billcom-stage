@@ -1,0 +1,25 @@
+/* sidebar.css */
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #000000;
+    color: var(--text-color);
+    min-height: 100vh;
+    padding-top: 20px;
+    position: fixed; /* Make the sidebar fixed */
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.sidebar a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
